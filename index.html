@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/index.css" />
+    <script src="./index.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="nav">
+        <header>
+          <h2 id="header-text">Awasome Quiz Application</h2>
+        </header>
+        <div class="timer-section">
+          <p class="timer-text">Time Left</p>
+          <div class="time">15</div>
+        </div>
+      </div>
+      <div class="line-wrapper">
+        <div class="line"></div>
+      </div>
+      <div class="question-answer-wrapper">
+        <div class="question" id="0">
+          <h2 id="question-text">
+            1.India's first Technicolor film ____ in the early 1950s was
+            produced by ____
+          </h2>
+        </div>
+        <div class="answers" id="option1">1.Jhansi Ki Rani', Sohrab Modi</div>
+        <div class="answers" id="option2">
+          2.'Jhansi Ki Rani', Sir Syed Ahmed
+        </div>
+        <div class="answers" id="option3">3.'Mirza Ghalib', Sohrab Modi</div>
+        <div class="answers" id="option4">
+          4.'Mirza Ghalib', Munshi Premchand
+        </div>
+      </div>
+      <div class="extra-option">
+        <p class="answered-questions">
+          <span id="cur-quest-number">1</span> of 9 Questions
+        </p>
+        <div>
+          <button id="start-btn">start</button>
+          <button id="pass-btn">pass</button>
+        </div>
+      </div>
+    </div>
+    <div class="result-section">
+      <div class="wrapper-result">
+        <h1>Result:0</h1>
+        <button id="back">back -></button>
+      </div>
+    </div>
+  </body>
+</html>
